@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+  jpa:
+    hibernate:
+      ddlAuto: create
